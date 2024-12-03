@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated BackGround -->
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- MAIN -->
+    <main>
+        <!-- INPPUTS -->
+        <section>
+            <h1>TO-DO_List</h1>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-12 col-lg-6">
+                        <input type="text" placeholder="Enter Your Task" class="form-control" id="inputNameTask">
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <select class="form-select" id="selectStatusTask">
+                            <option value="All">All</option>
+                            <option value="pending">Pending</option>
+                            <option value="Complete">Complete</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12 col-lg-8 mx-auto my-3">
+                        <button class="btn btn-primary w-100" id="addTask">ADD</button>
+                        <button class="btn btn-primary w-100 d-none" id="updateTask">UPDATE</button>
+                    </div>
+                    <div class="col-md-12 col-lg-10 mx-auto my-3">
+                        <input type="search" placeholder="Search Task" class="form-control" id="searchTask">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ASSIGNMENTS -->
+        <section>
+            <div class="container">
+                <div class="w-75 m-auto p-5 rounded-5 bg-black bg-opacity-50">
+                    <h2 class="text-center text-white mb-5">Tasks</h2>
+                    <div class="row g-4" id="bodyTasks">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <!-- sweetalert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- js -->
+    <script src="scriot.js"></script>
+</body>
+
+</html>

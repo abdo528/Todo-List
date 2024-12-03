@@ -1,0 +1,317 @@
+/* Animated BackGround */
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #4e54c8;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 24s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 67%;
+    width: 186px;
+    height: 186px;
+    bottom: -186px;
+    animation-delay: 1s;
+}
+
+.background li:nth-child(1) {
+    left: 8%;
+    width: 147px;
+    height: 147px;
+    bottom: -147px;
+    animation-delay: 4s;
+}
+
+.background li:nth-child(2) {
+    left: 75%;
+    width: 120px;
+    height: 120px;
+    bottom: -120px;
+    animation-delay: 2s;
+}
+
+.background li:nth-child(3) {
+    left: 10%;
+    width: 174px;
+    height: 174px;
+    bottom: -174px;
+    animation-delay: 7s;
+}
+
+.background li:nth-child(4) {
+    left: 49%;
+    width: 248px;
+    height: 248px;
+    bottom: -248px;
+    animation-delay: 16s;
+}
+
+.background li:nth-child(5) {
+    left: 14%;
+    width: 189px;
+    height: 189px;
+    bottom: -189px;
+    animation-delay: 25s;
+}
+
+.background li:nth-child(6) {
+    left: 5%;
+    width: 226px;
+    height: 226px;
+    bottom: -226px;
+    animation-delay: 25s;
+}
+
+.background li:nth-child(7) {
+    left: 88%;
+    width: 260px;
+    height: 260px;
+    bottom: -260px;
+    animation-delay: 29s;
+}
+
+.background li:nth-child(8) {
+    left: 7%;
+    width: 267px;
+    height: 267px;
+    bottom: -267px;
+    animation-delay: 25s;
+}
+
+.background li:nth-child(9) {
+    left: 75%;
+    width: 231px;
+    height: 231px;
+    bottom: -231px;
+    animation-delay: 16s;
+}
+
+.background li:nth-child(10) {
+    left: 13%;
+    width: 196px;
+    height: 196px;
+    bottom: -196px;
+    animation-delay: 19s;
+}
+
+.background li:nth-child(11) {
+    left: 76%;
+    width: 120px;
+    height: 120px;
+    bottom: -120px;
+    animation-delay: 37s;
+}
+
+.background li:nth-child(12) {
+    left: 18%;
+    width: 232px;
+    height: 232px;
+    bottom: -232px;
+    animation-delay: 41s;
+}
+
+.background li:nth-child(13) {
+    left: 46%;
+    width: 265px;
+    height: 265px;
+    bottom: -265px;
+    animation-delay: 23s;
+}
+
+.background li:nth-child(14) {
+    left: 29%;
+    width: 290px;
+    height: 290px;
+    bottom: -290px;
+    animation-delay: 50s;
+}
+
+.background li:nth-child(15) {
+    left: 79%;
+    width: 229px;
+    height: 229px;
+    bottom: -229px;
+    animation-delay: 11s;
+}
+
+.background li:nth-child(16) {
+    left: 76%;
+    width: 176px;
+    height: 176px;
+    bottom: -176px;
+    animation-delay: 17s;
+}
+
+.background li:nth-child(17) {
+    left: 22%;
+    width: 188px;
+    height: 188px;
+    bottom: -188px;
+    animation-delay: 71s;
+}
+
+.background li:nth-child(18) {
+    left: 46%;
+    width: 131px;
+    height: 131px;
+    bottom: -131px;
+    animation-delay: 77s;
+}
+
+.background li:nth-child(19) {
+    left: 39%;
+    width: 294px;
+    height: 294px;
+    bottom: -294px;
+    animation-delay: 85s;
+}
+
+.background li:nth-child(20) {
+    left: 23%;
+    width: 269px;
+    height: 269px;
+    bottom: -269px;
+    animation-delay: 86s;
+}
+
+.background li:nth-child(21) {
+    left: 87%;
+    width: 279px;
+    height: 279px;
+    bottom: -279px;
+    animation-delay: 28s;
+}
+
+.background li:nth-child(22) {
+    left: 54%;
+    width: 268px;
+    height: 268px;
+    bottom: -268px;
+    animation-delay: 9s;
+}
+
+.background li:nth-child(23) {
+    left: 27%;
+    width: 216px;
+    height: 216px;
+    bottom: -216px;
+    animation-delay: 32s;
+}
+
+.background li:nth-child(24) {
+    left: 87%;
+    width: 145px;
+    height: 145px;
+    bottom: -145px;
+    animation-delay: 30s;
+}
+
+.background li:nth-child(25) {
+    left: 44%;
+    width: 253px;
+    height: 253px;
+    bottom: -253px;
+    animation-delay: 114s;
+}
+
+.background li:nth-child(26) {
+    left: 56%;
+    width: 113px;
+    height: 113px;
+    bottom: -113px;
+    animation-delay: 130s;
+}
+
+.background li:nth-child(27) {
+    left: 66%;
+    width: 166px;
+    height: 166px;
+    bottom: -166px;
+    animation-delay: 123s;
+}
+
+.background li:nth-child(28) {
+    left: 30%;
+    width: 199px;
+    height: 199px;
+    bottom: -199px;
+    animation-delay: 134s;
+}
+
+.background li:nth-child(29) {
+    left: 77%;
+    width: 261px;
+    height: 261px;
+    bottom: -261px;
+    animation-delay: 137s;
+}
+
+/* MAIN */
+h1 {
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+    margin: 20px auto;
+    background-image: linear-gradient(90deg, rgba(0, 15, 36, 1) 0%, rgba(9, 43, 121, 1) 50%, rgba(29, 0, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.labelCheck {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkBox:checked+.labelCheck {
+    background-color: rgb(74, 74, 204);
+}
+
+.checkBox:checked+.labelCheck::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: #fff;
+}
+
+.boxsh{
+    box-shadow: 0 0 10px .1px #fff;
+}
